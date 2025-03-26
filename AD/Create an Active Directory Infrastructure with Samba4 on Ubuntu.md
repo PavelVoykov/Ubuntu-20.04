@@ -143,7 +143,7 @@ Domain function level: (Windows) 2008 R2
 Lowest function level of a DC: (Windows) 2008 R2
 ```
 
-15. In order for DNS resolution to work locally, you need to open end edit network interface settings and point the DNS resolution by modifying dns-nameservers statement to the IP Address of your Domain Controller (use 127.0.0.1 for local DNS resolution) and dns-search statement to point to your realm.
+15. In order for DNS resolution to work locally, you need to open and edit network interface settings and point the DNS resolution by modifying dns-nameservers statement to the IP Address of your Domain Controller (use 127.0.0.1 for local DNS resolution) and dns-search statement to point to your realm.
 
 Recreate the dns nameserver file
 
